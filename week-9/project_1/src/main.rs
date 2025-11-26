@@ -43,5 +43,5 @@ fn main() {
         file.write_all(format!("- {}\n", item).as_bytes()).unwrap();
     }
 
-    println!("File created successfully!");
+    println!("File created successfully");
 }
